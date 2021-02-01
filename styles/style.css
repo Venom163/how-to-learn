@@ -233,13 +233,13 @@ header__subtitle-link{
 /* kaufman !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .kaufman {
-  padding:90px auto 0;
   display: flex;
   background-color: #1f1f1f;
   overflow: hidden;
   flex-direction: column;
   position: relative;
   justify-content: center;
+  padding: 90px 0 90px 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -257,10 +257,12 @@ header__subtitle-link{
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 2;
-  margin:0 auto 90px;
+  margin: 0;
 }
 
 .section-title_theme_dark {
+  padding: 0;
+  margin: 0;
   color:#ffffff;
   font-size: 60px;
   line-height: 1.15;
@@ -297,7 +299,7 @@ header__subtitle-link{
 /* footer !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .footer {
-  padding: 60px 40px;
+  padding: 60px 0 40px 0;
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
@@ -307,7 +309,7 @@ header__subtitle-link{
 .footer__columns {
   display: flex;
   width: 90%;
-  margin: 60px auto 40px;
+  margin: 0;
   flex-direction: row;
   justify-content: space-between;
   position: relative;

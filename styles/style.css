@@ -93,7 +93,8 @@
   display: flex;
   flex-direction: row;
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto 0 auto;
+  padding: 100px 0 0 0;
   justify-content: space-between;
 }
 
@@ -142,11 +143,11 @@
 .digits {
   display: flex;
   flex-direction: column;
-  padding: 100px 0 40px 0;
+  padding: 100px 0 100px 0;
 }
 
 .section-title {
-  margin: 0 0 20px 0;
+  margin: 0;
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
@@ -155,7 +156,7 @@
 
 .section-subtitle {
   margin: 0;
-  padding: 0 0 60px 0;
+  padding: 20px 0 0 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -172,7 +173,7 @@
 
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -196,7 +197,8 @@
 .feynman__title {
   max-width: 648px;
   font-size: 120px;
-  margin: 100px auto;
+  margin: 0 auto 0 auto;
+  padding: 0;
   line-height: 1.15;
   font-weight: bold;
   text-align: center;
@@ -205,21 +207,24 @@
 
 .feynman {
   display: flex;
-  min-height: 790px;
+  height: 790px;
+  padding: 100px 0 0 0;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 867px 636px;
-  position: relative;
   flex-direction: column;
+  position: relative;
 }
 
 .feynman__subtitle {
-  margin: 70px auto 0;
+  margin: 0 auto 0 auto;
+  padding: 70px 0 0 0;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
+  text-align: center;
   z-index: 1;
 }
 
@@ -245,14 +250,14 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
-  padding: 90px 0 50px 0;
+  padding: 90px 0 90px 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   max-width: 200px;
   color: white;
-  margin: 40px auto 40px auto;
+  margin: 80px auto 0 auto;
   z-index: 2;
 }
 
@@ -277,7 +282,7 @@
 
 .section-subtitle_theme_dark {
   color:#ffffff;
-  margin: 20px auto 40px;
+  margin: 20px auto 0 auto;
   padding: 0;
   font-size: 24px;
   line-height: 34px;
@@ -316,7 +321,7 @@
 .footer__columns {
   display: flex;
   width: 90%;
-  margin: 0;
+  margin: 0 auto 0 auto;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
@@ -363,7 +368,7 @@
   background-image: url(../images/logo_place_footer.svg);
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   justify-content: space-between;

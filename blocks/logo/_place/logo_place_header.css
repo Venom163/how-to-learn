@@ -4,9 +4,9 @@
   top: 30px;
   left: 64px;
   background-image: url(../../../images/logo_place_header.svg);
+  transition: opacity 0.1s linear;
 }
 
 .logo_place_header:hover {
   opacity: 0.5;
-  transition: opacity 0.1s linear;
 }
